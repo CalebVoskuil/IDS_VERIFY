@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+coverage/
+.jest-cache/
+.turbo/
+*.tsbuildinfo
+
+packages/wallet/android/.gradle/
+packages/wallet/android/app/build/
+packages/wallet/android/build/
+packages/wallet/ios/build/
+packages/wallet/ios/Pods/
