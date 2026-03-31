@@ -1,5 +1,36 @@
 {
   "name": "@vero/issuer-agent",
   "private": true,
-  "version": "0.1.0"
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/index.ts",
+    "test": "npm run build && node --experimental-vm-modules ./node_modules/jest/bin/jest.js --config ./jest.config.cjs --runInBand"
+  },
+  "dependencies": {
+    "@credo-ts/anoncreds": "0.6.3",
+    "@credo-ts/askar": "0.6.3",
+    "@credo-ts/core": "0.6.3",
+    "@credo-ts/didcomm": "0.6.3",
+    "@credo-ts/indy-vdr": "0.6.3",
+    "@credo-ts/node": "0.6.3",
+    "@hyperledger/anoncreds-nodejs": "0.3.4",
+    "@hyperledger/anoncreds-shared": "0.3.4",
+    "@hyperledger/indy-vdr-nodejs": "0.2.4",
+    "@hyperledger/indy-vdr-shared": "0.2.4",
+    "@openwallet-foundation/askar-shared": "0.6.0",
+    "@openwallet-foundation/askar-nodejs": "0.6.0",
+    "fastify": "5.8.4",
+    "qrcode": "1.5.4",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/jest": "30.0.0",
+    "@types/node": "25.5.0",
+    "@types/qrcode": "1.5.6",
+    "jest": "30.3.0",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
+  }
 }

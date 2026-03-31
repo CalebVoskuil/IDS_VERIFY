@@ -11,3 +11,5 @@ packages/wallet/android/app/build/
 packages/wallet/android/build/
 packages/wallet/ios/build/
 packages/wallet/ios/Pods/
+
+packages/*/.data/

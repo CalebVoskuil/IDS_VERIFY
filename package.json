@@ -2,6 +2,15 @@
   "name": "vero",
   "private": true,
   "version": "0.1.0",
+  "overrides": {
+    "@2060.io/ffi-napi": "file:vendor/npm/2060.io-ffi-napi-4.0.9-patched.tgz",
+    "@hyperledger/anoncreds-nodejs": {
+      "@2060.io/ffi-napi": "file:vendor/npm/2060.io-ffi-napi-4.0.9-patched.tgz"
+    },
+    "@hyperledger/indy-vdr-nodejs": {
+      "@2060.io/ffi-napi": "file:vendor/npm/2060.io-ffi-napi-4.0.9-patched.tgz"
+    }
+  },
   "workspaces": [
     "packages/*",
     "tests/*"

@@ -1,0 +1,17 @@
+
+> @vero/verifier-agent@0.1.0 start
+> tsx src/index.ts
+
+INFO: Creating agent with config {
+  "agentConfig": {
+    "allowInsecureHttpUrls": true,
+    "logger": 3,
+    "agentDependencies": true
+  }
+}
+INFO: Agent storage is up to date.
+[verifier-agent] Booted against bcovrin:test
+[verifier-agent] DID: did:key:z6Mktpw1UDrA4shySXKYgz7pj7zc9Yq6X153xF4Tqk8PQwRY
+[verifier-agent] REST API: http://127.0.0.1:3100
+[verifier-agent] DidComm endpoint: http://localhost:3101/didcomm
+[verifier-agent] Invitation base URL: http://localhost:3100/proof-request

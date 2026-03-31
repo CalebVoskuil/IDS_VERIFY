@@ -1,0 +1,45 @@
+{
+  "name": "@credo-ts/anoncreds",
+  "exports": {
+    ".": "./build/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "version": "0.6.3",
+  "files": [
+    "build"
+  ],
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/anoncreds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "directory": "packages/anoncreds"
+  },
+  "dependencies": {
+    "@astronautlabs/jsonpath": "^1.1.2",
+    "@sphereon/pex-models": "^2.3.2",
+    "class-transformer": "0.5.1",
+    "class-validator": "^0.14.3",
+    "reflect-metadata": "0.2.2",
+    "@credo-ts/core": "0.6.3",
+    "@credo-ts/didcomm": "0.6.3"
+  },
+  "devDependencies": {
+    "@hyperledger/anoncreds-nodejs": "^0.3.4",
+    "@hyperledger/anoncreds-shared": "^0.3.4",
+    "rxjs": "^7.8.2",
+    "typescript": "~5.9.3",
+    "@credo-ts/node": "0.6.3"
+  },
+  "peerDependencies": {
+    "@hyperledger/anoncreds-shared": "^0.3.4"
+  },
+  "scripts": {
+    "build": "tsdown --config-loader unrun"
+  },
+  "types": "./build/index.d.mts",
+  "module": "./build/index.mjs"
+}
