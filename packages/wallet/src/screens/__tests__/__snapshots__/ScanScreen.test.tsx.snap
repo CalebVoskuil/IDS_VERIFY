@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScanScreen renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#0f172a",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#1e293b",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "height": 240,
+          "marginBottom": 24,
+          "position": "relative",
+          "width": 240,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "height": 24,
+              "position": "absolute",
+              "width": 24,
+            },
+            {
+              "borderColor": "#fff",
+              "borderLeftWidth": 3,
+              "borderTopLeftRadius": 4,
+              "borderTopWidth": 3,
+              "left": 0,
+              "top": 0,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "height": 24,
+              "position": "absolute",
+              "width": 24,
+            },
+            {
+              "borderColor": "#fff",
+              "borderRightWidth": 3,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 3,
+              "right": 0,
+              "top": 0,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "height": 24,
+              "position": "absolute",
+              "width": 24,
+            },
+            {
+              "borderBottomLeftRadius": 4,
+              "borderBottomWidth": 3,
+              "borderColor": "#fff",
+              "borderLeftWidth": 3,
+              "bottom": 0,
+              "left": 0,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "height": 24,
+              "position": "absolute",
+              "width": 24,
+            },
+            {
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 3,
+              "borderColor": "#fff",
+              "borderRightWidth": 3,
+              "bottom": 0,
+              "right": 0,
+            },
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#94a3b8",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Camera preview will appear here
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#64748b",
+          "fontSize": 13,
+          "marginTop": 8,
+          "paddingHorizontal": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Point your camera at an issuer or verifier QR code
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#0f172a",
+        "paddingHorizontal": 20,
+        "paddingVertical": 24,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#3b82f6",
+          "borderRadius": 12,
+          "opacity": 1,
+          "paddingHorizontal": 32,
+          "paddingVertical": 14,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Simulate QR Scan
+      </Text>
+    </View>
+  </View>
+</View>
+`;

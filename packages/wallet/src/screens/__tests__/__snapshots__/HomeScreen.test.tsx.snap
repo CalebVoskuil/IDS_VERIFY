@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen renders correctly with a mock credential 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#f4f1ea",
+      "flex": 1,
+      "paddingHorizontal": 20,
+      "paddingTop": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 24,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#0f172a",
+          "fontSize": 26,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Vero Wallet
+    </Text>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 12,
+            "paddingHorizontal": 10,
+            "paddingVertical": 4,
+          },
+          {
+            "backgroundColor": "#ca8a04",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontSize": 12,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Connecting...
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderRadius": 16,
+        "elevation": 3,
+        "padding": 20,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#0f172a",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "marginBottom": 4,
+        }
+      }
+    >
+      UCT Student Credential
+    </Text>
+    <View
+      style={
+        {
+          "backgroundColor": "#e2e8f0",
+          "height": 1,
+          "marginVertical": 12,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#64748b",
+            "fontSize": 14,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Name
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#0f172a",
+            "flexShrink": 1,
+            "fontSize": 14,
+            "fontWeight": "600",
+            "marginLeft": 12,
+            "textAlign": "right",
+          }
+        }
+      >
+        Thabo Mokoena
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#64748b",
+            "fontSize": 14,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Student Number
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#0f172a",
+            "flexShrink": 1,
+            "fontSize": 14,
+            "fontWeight": "600",
+            "marginLeft": 12,
+            "textAlign": "right",
+          }
+        }
+      >
+        20260042
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#64748b",
+            "fontSize": 14,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Faculty
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#0f172a",
+            "flexShrink": 1,
+            "fontSize": 14,
+            "fontWeight": "600",
+            "marginLeft": 12,
+            "textAlign": "right",
+          }
+        }
+      >
+        Engineering & the Built Environment
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#64748b",
+            "fontSize": 14,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Enrollment
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#0f172a",
+              "flexShrink": 1,
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginLeft": 12,
+              "textAlign": "right",
+            },
+            {
+              "color": "#16a34a",
+              "textTransform": "capitalize",
+            },
+          ]
+        }
+      >
+        active
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#64748b",
+            "fontSize": 14,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Valid
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#0f172a",
+            "flexShrink": 1,
+            "fontSize": 14,
+            "fontWeight": "600",
+            "marginLeft": 12,
+            "textAlign": "right",
+          }
+        }
+      >
+        2026-01-15
+         to 
+        2026-12-15
+      </Text>
+    </View>
+  </View>
+</View>
+`;

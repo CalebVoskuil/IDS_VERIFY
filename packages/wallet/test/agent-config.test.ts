@@ -1,6 +1,8 @@
 import { LogLevel } from '@credo-ts/core'
 
 import {
+  BCOVRIN_TEST_GENESIS_URL,
+  BCOVRIN_TEST_NAMESPACE,
   DEFAULT_WALLET_DB_FILENAME,
   DEFAULT_WALLET_ID,
   DEFAULT_WALLET_KEY,
@@ -26,6 +28,8 @@ describe('wallet agent config', () => {
 
     expect(config).toEqual({
       allowInsecureHttpUrls: true,
+      bcovrinGenesisUrl: BCOVRIN_TEST_GENESIS_URL,
+      indyNamespace: BCOVRIN_TEST_NAMESPACE,
       logLevel: LogLevel.info,
       walletDbPath: `/wallet-storage/${DEFAULT_WALLET_DB_FILENAME}`,
       walletId: DEFAULT_WALLET_ID,

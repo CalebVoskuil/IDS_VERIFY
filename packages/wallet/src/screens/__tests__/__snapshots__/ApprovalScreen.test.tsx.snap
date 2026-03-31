@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApprovalScreen renders correctly with mock proof request 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#f4f1ea",
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "paddingHorizontal": 24,
+        "paddingTop": 32,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e0e7ff",
+          "borderRadius": 36,
+          "height": 72,
+          "justifyContent": "center",
+          "marginBottom": 20,
+          "width": 72,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 32,
+          }
+        }
+      >
+        🔐
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#0f172a",
+          "fontSize": 22,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Verification Request
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#3b82f6",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "marginBottom": 4,
+        }
+      }
+    >
+      UCT Canteen — Upper Campus
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#64748b",
+          "fontSize": 14,
+          "marginBottom": 24,
+          "textAlign": "center",
+        }
+      }
+    >
+      is requesting access to the following information:
+    </Text>
+    <View
+      style={
+        {
+          "backgroundColor": "#fff",
+          "borderRadius": 16,
+          "elevation": 2,
+          "padding": 16,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.06,
+          "shadowRadius": 4,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderBottomColor": "#f1f5f9",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#dcfce7",
+                "borderRadius": 11,
+                "height": 22,
+                "justifyContent": "center",
+                "marginRight": 10,
+                "width": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#16a34a",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              ✓
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#334155",
+                "fontSize": 14,
+                "fontWeight": "500",
+              }
+            }
+          >
+            studentNumber
+          </Text>
+        </View>
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "#0f172a",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "maxWidth": 160,
+              "textAlign": "right",
+            }
+          }
+        >
+          20260042
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderBottomColor": "#f1f5f9",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#dcfce7",
+                "borderRadius": 11,
+                "height": 22,
+                "justifyContent": "center",
+                "marginRight": 10,
+                "width": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#16a34a",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              ✓
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#334155",
+                "fontSize": 14,
+                "fontWeight": "500",
+              }
+            }
+          >
+            enrollmentStatus
+          </Text>
+        </View>
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "#0f172a",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "maxWidth": 160,
+              "textAlign": "right",
+            }
+          }
+        >
+          active
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderBottomColor": "#f1f5f9",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#dcfce7",
+                "borderRadius": 11,
+                "height": 22,
+                "justifyContent": "center",
+                "marginRight": 10,
+                "width": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#16a34a",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              ✓
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#334155",
+                "fontSize": 14,
+                "fontWeight": "500",
+              }
+            }
+          >
+            validFrom
+          </Text>
+        </View>
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "#0f172a",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "maxWidth": 160,
+              "textAlign": "right",
+            }
+          }
+        >
+          2026-01-15
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderBottomColor": "#f1f5f9",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#dcfce7",
+                "borderRadius": 11,
+                "height": 22,
+                "justifyContent": "center",
+                "marginRight": 10,
+                "width": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#16a34a",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              ✓
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#334155",
+                "fontSize": 14,
+                "fontWeight": "500",
+              }
+            }
+          >
+            validUntil
+          </Text>
+        </View>
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "#0f172a",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "maxWidth": 160,
+              "textAlign": "right",
+            }
+          }
+        >
+          2026-12-15
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingBottom": 32,
+        "paddingHorizontal": 20,
+        "paddingTop": 12,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#e2e8f0",
+          "borderRadius": 14,
+          "borderWidth": 1.5,
+          "flex": 1,
+          "opacity": 1,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#64748b",
+            "fontSize": 16,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Deny
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#3b82f6",
+          "borderRadius": 14,
+          "flex": 1,
+          "opacity": 1,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Approve
+      </Text>
+    </View>
+  </View>
+</View>
+`;

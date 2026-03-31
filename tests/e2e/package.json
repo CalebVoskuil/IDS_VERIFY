@@ -1,5 +1,15 @@
 {
   "name": "@vero/e2e-tests",
   "private": true,
-  "version": "0.1.0"
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "prebuild": "npm run build --workspace=@vero/issuer-agent --workspace=@vero/verifier-agent",
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test --test-timeout=120000 dist/canteen-flow.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "typescript": "5.9.3"
+  }
 }
